@@ -13,4 +13,4 @@ Flutter version used - 3.22.0
 
 To auto generate the code
 
-dart run build_runner build 
+dart run build_runner build

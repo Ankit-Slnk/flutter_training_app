@@ -4,11 +4,13 @@ import 'package:flutter_training_app/home_screen/models/training.dart';
 
 class TrainingProvider extends StateNotifier<FilterTraining> {
   TrainingProvider()
-      : super(const FilterTraining(
-          locations: [],
-          trainingNames: [],
-          trainerNames: [],
-        ));
+      : super(
+          const FilterTraining(
+            locations: [],
+            trainingNames: [],
+            trainerNames: [],
+          ),
+        );
 
   void updateLocation(String location) {
     if (state.locations.contains(location)) {
