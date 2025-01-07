@@ -43,5 +43,5 @@ app.*.map.json
 /android/app/release
 
 # Ignore Dart code generation files
-*.g.dart
-*.freezed.dart
+lib/**/*.g.dart
+lib/**/*.freezed.dart
