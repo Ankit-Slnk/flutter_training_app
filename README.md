@@ -10,3 +10,7 @@ Welcome to **My Trainings App**, a mobile application built with Flutter that al
 - **Detailed View**: View detailed information in full screen when a training is selected.
 
 Flutter version used - 3.22.0
+
+To auto generate the code
+
+dart run build_runner build 
